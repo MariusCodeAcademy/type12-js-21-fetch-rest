@@ -14,3 +14,5 @@ fetch(url)
 // ideti i html sarasa username, telefono numeri, adreso gatve ir miesta
 
 // atvaizduoti sarasa is visu users zmoniu
+
+// itraukti footeri i musu dokumenta is footer.html
