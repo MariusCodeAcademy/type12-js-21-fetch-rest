@@ -32,3 +32,9 @@ fetch('data/two.txt11')
 //   .catch((err) => console.log(err));
 
 // fetch and console log user1.json
+fetch('data/user1.json')
+  .then((resp) => resp.json())
+  .then((data) => console.log('user1', data))
+  .catch((err) => console.log(err));
+
+// gauti ir atspausdinti consoleje pirma zmogu is people.json
